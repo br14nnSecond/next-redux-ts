@@ -6,12 +6,12 @@ import { Provider } from "react-redux";
 import store from "@/utils/redux/store";
 
 //components
-import HomePage from "@/components/pages/HomePage";
+import PersonPage from "@/components/pages/PersonPage";
 
-export default function Home() {
+export default function Person() {
   return (
     <Provider store={store}>
-      <HomePage />
+      <PersonPage />
     </Provider>
   );
 }
